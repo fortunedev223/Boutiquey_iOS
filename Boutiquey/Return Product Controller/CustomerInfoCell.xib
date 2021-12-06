@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomerInfoCell" rowHeight="395" id="KGk-i7-Jjw" customClass="CustomerInfoCell" customModule="MobikulOpencart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="395"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="394.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXu-Rb-HJq">
+                        <rect key="frame" x="10" y="10" width="494" height="374.5"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciU-cx-ukM" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="10" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LAf-oo-dD8"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="firstNameClick:" destination="KGk-i7-Jjw" eventType="editingChanged" id="oGS-rN-s99"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kQ1-qg-Q75" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="70" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="M0O-9x-4LY"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="lastNameClick:" destination="KGk-i7-Jjw" eventType="editingChanged" id="nyQ-mB-6Fe"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uRw-6a-vOC" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="130" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="oSp-nE-B3R"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailClick:" destination="KGk-i7-Jjw" eventType="editingChanged" id="Lgk-Dy-nG3"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Muh-Sk-nCJ" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="190" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="P1d-2v-U1Q"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="TelephoneClick:" destination="KGk-i7-Jjw" eventType="editingChanged" id="gRl-gh-qFE"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KqV-sN-dff" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="250" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="g0i-RA-E4A"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="orderIdClick:" destination="KGk-i7-Jjw" eventType="editingChanged" id="vZB-9q-vD2"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x3O-W7-Dql" customClass="UIFloatLabelTextField">
+                                <rect key="frame" x="8" y="310" width="478" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MpZ-VC-QFG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="orderDateClick:" destination="KGk-i7-Jjw" eventType="editingDidBegin" id="9to-OY-dbn"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KqV-sN-dff" firstAttribute="leading" secondItem="Muh-Sk-nCJ" secondAttribute="leading" id="1Ad-Ur-KIQ"/>
+                            <constraint firstItem="x3O-W7-Dql" firstAttribute="top" secondItem="KqV-sN-dff" secondAttribute="bottom" constant="10" id="1J7-Gj-Mb0"/>
+                            <constraint firstAttribute="trailing" secondItem="ciU-cx-ukM" secondAttribute="trailing" constant="8" id="1tu-5x-3UH"/>
+                            <constraint firstItem="x3O-W7-Dql" firstAttribute="trailing" secondItem="KqV-sN-dff" secondAttribute="trailing" id="3mf-VM-pky"/>
+                            <constraint firstItem="uRw-6a-vOC" firstAttribute="trailing" secondItem="kQ1-qg-Q75" secondAttribute="trailing" id="9RC-Gg-X8r"/>
+                            <constraint firstItem="Muh-Sk-nCJ" firstAttribute="leading" secondItem="uRw-6a-vOC" secondAttribute="leading" id="A9f-V8-36J"/>
+                            <constraint firstItem="Muh-Sk-nCJ" firstAttribute="top" secondItem="uRw-6a-vOC" secondAttribute="bottom" constant="10" id="K2O-06-kcC"/>
+                            <constraint firstItem="kQ1-qg-Q75" firstAttribute="top" secondItem="ciU-cx-ukM" secondAttribute="bottom" constant="10" id="KEs-dH-Ryv"/>
+                            <constraint firstItem="Muh-Sk-nCJ" firstAttribute="trailing" secondItem="uRw-6a-vOC" secondAttribute="trailing" id="PES-js-m0N"/>
+                            <constraint firstItem="x3O-W7-Dql" firstAttribute="leading" secondItem="KqV-sN-dff" secondAttribute="leading" id="PV7-UN-twX"/>
+                            <constraint firstItem="KqV-sN-dff" firstAttribute="trailing" secondItem="Muh-Sk-nCJ" secondAttribute="trailing" id="eTf-JP-Knk"/>
+                            <constraint firstItem="ciU-cx-ukM" firstAttribute="leading" secondItem="jXu-Rb-HJq" secondAttribute="leading" constant="8" id="gMz-Cz-208"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="x3O-W7-Dql" secondAttribute="bottom" constant="7.5" id="h2D-8x-1rV"/>
+                            <constraint firstItem="kQ1-qg-Q75" firstAttribute="leading" secondItem="ciU-cx-ukM" secondAttribute="leading" id="hPt-oB-9Jn"/>
+                            <constraint firstItem="ciU-cx-ukM" firstAttribute="top" secondItem="jXu-Rb-HJq" secondAttribute="top" constant="10" id="n6T-zP-zfN"/>
+                            <constraint firstItem="kQ1-qg-Q75" firstAttribute="trailing" secondItem="ciU-cx-ukM" secondAttribute="trailing" id="o9F-zK-fp9"/>
+                            <constraint firstItem="KqV-sN-dff" firstAttribute="top" secondItem="Muh-Sk-nCJ" secondAttribute="bottom" constant="10" id="q38-FA-Moh"/>
+                            <constraint firstItem="uRw-6a-vOC" firstAttribute="top" secondItem="kQ1-qg-Q75" secondAttribute="bottom" constant="10" id="vyj-7K-m8E"/>
+                            <constraint firstItem="uRw-6a-vOC" firstAttribute="leading" secondItem="kQ1-qg-Q75" secondAttribute="leading" id="x9I-S0-ilO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jXu-Rb-HJq" secondAttribute="trailing" constant="10" id="LsA-xq-TxA"/>
+                    <constraint firstAttribute="bottom" secondItem="jXu-Rb-HJq" secondAttribute="bottom" constant="10" id="QLd-iM-lNx"/>
+                    <constraint firstItem="jXu-Rb-HJq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="YNK-7a-aLd"/>
+                    <constraint firstItem="jXu-Rb-HJq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="uH5-pg-bvo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateField" destination="x3O-W7-Dql" id="cXw-kb-uxW"/>
+                <outlet property="emailField" destination="uRw-6a-vOC" id="oud-FV-U6k"/>
+                <outlet property="firstNameField" destination="ciU-cx-ukM" id="a8k-EI-SjI"/>
+                <outlet property="lastNameField" destination="kQ1-qg-Q75" id="IgO-2Q-UHS"/>
+                <outlet property="orderIdField" destination="KqV-sN-dff" id="jS5-LD-pCZ"/>
+                <outlet property="telephoneField" destination="Muh-Sk-nCJ" id="Cko-SU-oIi"/>
+            </connections>
+            <point key="canvasLocation" x="-44" y="-75.5"/>
+        </tableViewCell>
+    </objects>
+</document>

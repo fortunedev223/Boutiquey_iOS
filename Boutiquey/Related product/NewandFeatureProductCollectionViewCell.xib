@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="newandfeaturecell" id="gTV-IL-0wX" customClass="NewandFeatureProductCollectionViewCell" customModule="MobikulOpencart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="255"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="255"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="NCj-D6-M92">
+                        <rect key="frame" x="0.0" y="0.0" width="286" height="165"/>
+                    </imageView>
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_wishlist_empty" translatesAutoresizingMaskIntoConstraints="NO" id="v8v-06-5iD">
+                        <rect key="frame" x="251" y="11" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="NFc-eq-wdH"/>
+                            <constraint firstAttribute="width" constant="25" id="yBh-xp-rm6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bE-Js-Ws1">
+                        <rect key="frame" x="5" y="166" width="276" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="gIR-za-5XR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="HIA-02-rh7" customClass="HCSStarRatingView">
+                        <rect key="frame" x="108" y="196" width="70" height="0.0"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="bZw-jQ-Pqr"/>
+                            <constraint firstAttribute="height" id="dX2-na-sPi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQZ-Jx-jMn">
+                        <rect key="frame" x="5" y="196" width="276" height="20"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gc-KY-BR7">
+                        <rect key="frame" x="5" y="217" width="276" height="14.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6Z-vK-ClT">
+                        <rect key="frame" x="10" y="231.5" width="266" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="WX8-sa-WMQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                        <state key="normal" title="ADD TO CART">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="YQZ-Jx-jMn" firstAttribute="trailing" secondItem="4bE-Js-Ws1" secondAttribute="trailing" id="39S-eH-xVL"/>
+                <constraint firstItem="YQZ-Jx-jMn" firstAttribute="top" secondItem="HIA-02-rh7" secondAttribute="bottom" id="7OW-Gl-FtU"/>
+                <constraint firstItem="NCj-D6-M92" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7gn-uh-rRd"/>
+                <constraint firstItem="4bE-Js-Ws1" firstAttribute="top" secondItem="NCj-D6-M92" secondAttribute="bottom" constant="1" id="8O3-5L-5up"/>
+                <constraint firstAttribute="trailing" secondItem="v8v-06-5iD" secondAttribute="trailing" constant="10" id="BVI-Up-l48"/>
+                <constraint firstItem="6Gc-KY-BR7" firstAttribute="leading" secondItem="YQZ-Jx-jMn" secondAttribute="leading" id="FjK-e2-Xct"/>
+                <constraint firstItem="HIA-02-rh7" firstAttribute="top" secondItem="4bE-Js-Ws1" secondAttribute="bottom" id="INh-PD-ef7"/>
+                <constraint firstItem="P6Z-vK-ClT" firstAttribute="leading" secondItem="NCj-D6-M92" secondAttribute="leading" constant="10" id="NP0-8K-sdy"/>
+                <constraint firstItem="P6Z-vK-ClT" firstAttribute="trailing" secondItem="NCj-D6-M92" secondAttribute="trailing" constant="-10" id="OS8-D8-s5W"/>
+                <constraint firstItem="NCj-D6-M92" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SXi-Wd-4HC"/>
+                <constraint firstItem="P6Z-vK-ClT" firstAttribute="top" secondItem="6Gc-KY-BR7" secondAttribute="bottom" id="VEr-Lb-Vh6"/>
+                <constraint firstAttribute="trailing" secondItem="NCj-D6-M92" secondAttribute="trailing" id="aIx-A1-edc"/>
+                <constraint firstItem="6Gc-KY-BR7" firstAttribute="top" secondItem="YQZ-Jx-jMn" secondAttribute="bottom" constant="1" id="jhz-2Q-6ka"/>
+                <constraint firstItem="HIA-02-rh7" firstAttribute="centerX" secondItem="4bE-Js-Ws1" secondAttribute="centerX" id="lwD-GV-N4r"/>
+                <constraint firstItem="4bE-Js-Ws1" firstAttribute="leading" secondItem="NCj-D6-M92" secondAttribute="leading" constant="5" id="oik-fu-Thg"/>
+                <constraint firstItem="v8v-06-5iD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="11" id="qbP-Ph-aYV"/>
+                <constraint firstItem="4bE-Js-Ws1" firstAttribute="trailing" secondItem="NCj-D6-M92" secondAttribute="trailing" constant="-5" id="svP-zi-GtT"/>
+                <constraint firstItem="6Gc-KY-BR7" firstAttribute="trailing" secondItem="YQZ-Jx-jMn" secondAttribute="trailing" id="wX4-HK-tfW"/>
+                <constraint firstItem="YQZ-Jx-jMn" firstAttribute="leading" secondItem="4bE-Js-Ws1" secondAttribute="leading" id="wv0-uJ-VMr"/>
+                <constraint firstAttribute="bottom" secondItem="NCj-D6-M92" secondAttribute="bottom" constant="90" id="zhq-4z-OA9"/>
+            </constraints>
+            <size key="customSize" width="286" height="255"/>
+            <connections>
+                <outlet property="addToCartButton" destination="P6Z-vK-ClT" id="HUt-T4-WDh"/>
+                <outlet property="imageView" destination="NCj-D6-M92" id="1pR-zm-D0E"/>
+                <outlet property="priceLabel" destination="YQZ-Jx-jMn" id="uIh-zt-t6p"/>
+                <outlet property="productName" destination="4bE-Js-Ws1" id="TGg-jq-Iyi"/>
+                <outlet property="specialPriceLabel" destination="6Gc-KY-BR7" id="xbo-8m-cB5"/>
+                <outlet property="startRatings" destination="HIA-02-rh7" id="A9u-NQ-ukG"/>
+                <outlet property="wishList" destination="v8v-06-5iD" id="yF4-Cy-Q27"/>
+            </connections>
+            <point key="canvasLocation" x="-188" y="138.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_placeholder.png" width="500" height="500"/>
+        <image name="ic_wishlist_empty" width="28" height="28"/>
+    </resources>
+</document>

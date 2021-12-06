@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="MenuCategoryCell" customModule="Boutiquey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="43"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="42.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YEZ-uU-AoS">
+                        <rect key="frame" x="10" y="5.5" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.3329713514" green="0.070905337930000006" blue="0.19233562909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="NEY-QM-EbY"/>
+                            <constraint firstAttribute="height" constant="32" id="UNL-Va-cnT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-Ud-JSR">
+                        <rect key="frame" x="62" y="12.5" width="37.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="h5X-Nh-PdC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aWS-Xc-vFD">
+                        <rect key="frame" x="0.0" y="42.5" width="349" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="S8v-Vr-rKV"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="rqM-k6-5AR">
+                        <rect key="frame" x="320" y="5.5" width="24" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="7bK-eE-RSL"/>
+                            <constraint firstAttribute="height" constant="32" id="Mgh-Kf-2kC"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.3329713514" green="0.070905337930000006" blue="0.19233562909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="YEZ-uU-AoS" secondAttribute="bottom" constant="5" id="CHF-9j-8yM"/>
+                    <constraint firstItem="rqM-k6-5AR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Gqx-OV-1zo"/>
+                    <constraint firstAttribute="bottom" secondItem="bBR-Ud-JSR" secondAttribute="bottom" constant="12" id="Hz2-Ni-yMy"/>
+                    <constraint firstItem="bBR-Ud-JSR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Ja5-fU-iEP"/>
+                    <constraint firstItem="bBR-Ud-JSR" firstAttribute="leading" secondItem="YEZ-uU-AoS" secondAttribute="trailing" constant="20" id="TnW-cm-muW"/>
+                    <constraint firstItem="aWS-Xc-vFD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="V2x-vR-In8"/>
+                    <constraint firstItem="YEZ-uU-AoS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dWp-5r-1U7"/>
+                    <constraint firstItem="aWS-Xc-vFD" firstAttribute="top" secondItem="rqM-k6-5AR" secondAttribute="bottom" constant="5" id="dyy-Tr-AOh"/>
+                    <constraint firstAttribute="trailing" secondItem="rqM-k6-5AR" secondAttribute="trailing" constant="5" id="fuD-SM-gOE"/>
+                    <constraint firstAttribute="bottom" secondItem="aWS-Xc-vFD" secondAttribute="bottom" id="smc-wj-eZL"/>
+                    <constraint firstAttribute="trailing" secondItem="aWS-Xc-vFD" secondAttribute="trailing" id="urJ-7C-nUY"/>
+                    <constraint firstItem="YEZ-uU-AoS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="yBv-Xu-sc9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cararrow" destination="rqM-k6-5AR" id="5EG-IH-0vq"/>
+                <outlet property="catimg" destination="YEZ-uU-AoS" id="Qvp-PI-WUE"/>
+                <outlet property="catlab" destination="bBR-Ud-JSR" id="DRY-qt-5av"/>
+            </connections>
+            <point key="canvasLocation" x="55.797101449275367" y="31.138392857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_arrow" width="24" height="24"/>
+    </resources>
+</document>

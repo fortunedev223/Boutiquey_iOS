@@ -1,0 +1,203 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BIObjCHelpers (0.4.3)
+  - DGActivityIndicatorView (2.1.1)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Database (4.0.4):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/Messaging (4.0.4):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (4.0.4):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FSPagerView (0.8.2)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - GoogleToolboxForMac/Logger (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - IQKeyboardManager (6.2.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - LMCSideMenu (0.1.0)
+  - Lockbox (3.0.6)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - MaterialComponents/ActivityIndicator (73.0.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/AnimationTiming (73.0.0)
+  - MaterialComponents/Palettes (73.0.0)
+  - MaterialComponents/private/Application (73.0.0)
+  - MaterialComponents/private/Math (73.0.0)
+  - MaterialComponents/TextFields (73.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (73.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PINCache (2.3)
+  - Protobuf (3.6.1)
+  - Reachability (3.2)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - SBJson (5.0.0)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - Siren (4.1.1)
+  - TransitionButton (0.5.2)
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BIObjCHelpers
+  - DGActivityIndicatorView
+  - Firebase/Core (= 4.0.4)
+  - Firebase/Database (= 4.0.4)
+  - Firebase/Messaging (= 4.0.4)
+  - FirebaseInstanceID (= 2.0.0)
+  - FSPagerView
+  - GoogleMaps
+  - IQKeyboardManager
+  - IQKeyboardManagerSwift
+  - LMCSideMenu
+  - Lockbox
+  - Mantle
+  - MaterialComponents/ActivityIndicator
+  - MaterialComponents/TextFields
+  - PINCache
+  - Reachability
+  - RealmSwift
+  - SBJson
+  - SDWebImage
+  - Siren
+  - TransitionButton
+  - YLGIFImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BIObjCHelpers
+    - DGActivityIndicatorView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FSPagerView
+    - GoogleMaps
+    - GoogleToolboxForMac
+    - IQKeyboardManager
+    - IQKeyboardManagerSwift
+    - LMCSideMenu
+    - Lockbox
+    - Mantle
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
+    - nanopb
+    - PINCache
+    - Protobuf
+    - Reachability
+    - Realm
+    - RealmSwift
+    - SBJson
+    - SDWebImage
+    - Siren
+    - TransitionButton
+    - YLGIFImage
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BIObjCHelpers: 378672b0f9309e4d2cbd4cabfb3afbe1ce225e40
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  LMCSideMenu: c013411972d6c86a801ce32b132a04c3f6d7d82d
+  Lockbox: 4291a0b8b1aed35474881c4e592961dec3ca695e
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  MaterialComponents: 5ee94fadd206902ffa318ba5adfd3c9c8c799000
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  Siren: 5cae2f172f500da57fddf73123b0f28b2a766e04
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+PODFILE CHECKSUM: 09043e7764197363b86991f5020e4188335cec5e
+
+COCOAPODS: 1.6.1

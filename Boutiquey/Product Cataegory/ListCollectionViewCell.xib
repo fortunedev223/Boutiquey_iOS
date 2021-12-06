@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="listcollectionview" id="gTV-IL-0wX" customClass="ListCollectionViewCell" customModule="Boutiquey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="i8d-ca-VCc">
+                        <rect key="frame" x="0.0" y="0.0" width="218.5" height="156"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xs-gd-1eQ">
+                        <rect key="frame" x="218" y="5" width="219" height="21"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="15"/>
+                        <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vT4-cU-T2r">
+                        <rect key="frame" x="218" y="27" width="219" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="wv5-xi-VZY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcp-Jd-CHx">
+                        <rect key="frame" x="218" y="97" width="219" height="21"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-hJ-fq2">
+                        <rect key="frame" x="218" y="151" width="209" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="YAH-c5-EdV"/>
+                        </constraints>
+                        <state key="normal" image="ic_wishlist_empty">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0c-kQ-lzJ">
+                        <rect key="frame" x="218" y="117" width="219" height="14.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpk-CQ-yT2">
+                        <rect key="frame" x="5" y="161" width="213.5" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="sBb-Qw-Pfp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vDm-hJ-fq2" firstAttribute="leading" secondItem="Mcp-Jd-CHx" secondAttribute="leading" id="4Di-3l-K4n"/>
+                <constraint firstItem="Xpk-CQ-yT2" firstAttribute="top" secondItem="i8d-ca-VCc" secondAttribute="bottom" constant="5" id="9MI-Pa-DT4"/>
+                <constraint firstItem="vT4-cU-T2r" firstAttribute="trailing" secondItem="6Xs-gd-1eQ" secondAttribute="trailing" id="Esy-GQ-4qQ"/>
+                <constraint firstItem="i8d-ca-VCc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FXl-bk-dVD"/>
+                <constraint firstItem="Mcp-Jd-CHx" firstAttribute="trailing" secondItem="vT4-cU-T2r" secondAttribute="trailing" id="HUK-bn-Rp1"/>
+                <constraint firstItem="Mcp-Jd-CHx" firstAttribute="top" secondItem="vT4-cU-T2r" secondAttribute="bottom" id="JX1-Vz-wWL"/>
+                <constraint firstItem="i8d-ca-VCc" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="1/2" id="Kkm-py-qbL"/>
+                <constraint firstItem="Xpk-CQ-yT2" firstAttribute="leading" secondItem="i8d-ca-VCc" secondAttribute="leading" constant="5" id="Pa5-Y4-GtN"/>
+                <constraint firstItem="Xpk-CQ-yT2" firstAttribute="trailing" secondItem="i8d-ca-VCc" secondAttribute="trailing" id="QzX-2e-zc7"/>
+                <constraint firstItem="i8d-ca-VCc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RW4-Rj-UI3"/>
+                <constraint firstItem="U0c-kQ-lzJ" firstAttribute="trailing" secondItem="Mcp-Jd-CHx" secondAttribute="trailing" id="TVo-w4-d3F"/>
+                <constraint firstAttribute="trailing" secondItem="6Xs-gd-1eQ" secondAttribute="trailing" id="Yil-Vg-GX9"/>
+                <constraint firstItem="Mcp-Jd-CHx" firstAttribute="leading" secondItem="vT4-cU-T2r" secondAttribute="leading" id="aD3-x7-aiN"/>
+                <constraint firstItem="U0c-kQ-lzJ" firstAttribute="leading" secondItem="Mcp-Jd-CHx" secondAttribute="leading" id="bUq-5d-dUV"/>
+                <constraint firstItem="vT4-cU-T2r" firstAttribute="leading" secondItem="6Xs-gd-1eQ" secondAttribute="leading" id="c6Q-4h-4Sz"/>
+                <constraint firstItem="6Xs-gd-1eQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="d6E-YP-JNk"/>
+                <constraint firstItem="vT4-cU-T2r" firstAttribute="top" secondItem="6Xs-gd-1eQ" secondAttribute="bottom" constant="1" id="hMq-qb-iLj"/>
+                <constraint firstItem="U0c-kQ-lzJ" firstAttribute="top" secondItem="Mcp-Jd-CHx" secondAttribute="bottom" constant="-1" id="kwl-rj-jnb"/>
+                <constraint firstItem="6Xs-gd-1eQ" firstAttribute="leading" secondItem="i8d-ca-VCc" secondAttribute="trailing" id="nZQ-Ys-bql"/>
+                <constraint firstAttribute="bottom" secondItem="vDm-hJ-fq2" secondAttribute="bottom" constant="5" id="pMN-So-vBW"/>
+                <constraint firstAttribute="bottom" secondItem="i8d-ca-VCc" secondAttribute="bottom" constant="40" id="pnR-E3-5aU"/>
+                <constraint firstItem="vDm-hJ-fq2" firstAttribute="trailing" secondItem="Mcp-Jd-CHx" secondAttribute="trailing" constant="-10" id="sl2-Be-ZpV"/>
+            </constraints>
+            <size key="customSize" width="437" height="196"/>
+            <connections>
+                <outlet property="addToCartButton" destination="Xpk-CQ-yT2" id="QfG-0S-jqU"/>
+                <outlet property="descriptionData" destination="vT4-cU-T2r" id="ooH-3b-OKy"/>
+                <outlet property="imageView" destination="i8d-ca-VCc" id="MUJ-yI-rgq"/>
+                <outlet property="name" destination="6Xs-gd-1eQ" id="BS6-2C-OiB"/>
+                <outlet property="price" destination="Mcp-Jd-CHx" id="HA0-f5-dG5"/>
+                <outlet property="quickView" destination="vDm-hJ-fq2" id="uhf-s8-QnM"/>
+                <outlet property="specialPriceLabel" destination="U0c-kQ-lzJ" id="Ixq-cC-KEZ"/>
+            </connections>
+            <point key="canvasLocation" x="-93.5" y="-21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_placeholder.png" width="500" height="500"/>
+        <image name="ic_wishlist_empty" width="16" height="13"/>
+    </resources>
+</document>
